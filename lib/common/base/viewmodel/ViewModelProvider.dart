@@ -3,6 +3,10 @@ import 'package:flutter_mvvm/common/base/viewmodel/BaseViewModel.dart';
 
 /**
  * 绑定View和ViewModel
+ *
+ * @date: 2019-08-26
+ * @version: 1.0
+ * @author: wangchenxing
  */
 class ViewModelProvider<T extends BaseViewModel> extends StatefulWidget {
   final T viewModel;

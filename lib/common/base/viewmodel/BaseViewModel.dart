@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_mvvm/common/base/model/BaseModel.dart';
-
 /**
  * 基础ViewModel类
+ *
+ * @date: 2019-08-26
+ * @version: 1.0
+ * @author: wangchenxing
  */
-
 abstract class BaseViewModel<T extends BaseModel> {
   T model;
 

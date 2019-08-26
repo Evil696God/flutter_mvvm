@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_mvvm/common/base/view/BaseStatefulWidget.dart';
+import 'package:flutter_mvvm/common/base/view/BaseWidget.dart';
 import 'package:flutter_mvvm/demo/viewmodel/TestViewModel.dart';
 
-class TestPage extends StatefulWidget {
+class TestPage extends BaseStatefulWidget {
   @override
-  State<StatefulWidget> createState() => TestState();
+  State<StatefulWidget> initState() => TestState();
 }
 
 class TestState extends BaseState<TestViewModel, TestPage> {
