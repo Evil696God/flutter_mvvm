@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_mvvm/common/base/viewmodel/BaseViewModel.dart';
+
+import 'BaseViewModel.dart';
 
 /**
  * 绑定View和ViewModel

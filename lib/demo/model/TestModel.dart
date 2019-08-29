@@ -1,4 +1,4 @@
-import 'package:flutter_mvvm/common/base/model/BaseModel.dart';
+import 'package:flutter_mvvm/common/base/basewidget/model/BaseModel.dart';
 import 'package:rxdart/rxdart.dart';
 
 class TestModel extends BaseModel {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mvvm/common/base/viewmodel/BaseViewModel.dart';
-import 'package:flutter_mvvm/common/base/viewmodel/ViewModelProvider.dart';
 import 'package:flutter_mvvm/demo/view/TestPage.dart';
 import 'package:flutter_mvvm/demo/viewmodel/TestViewModel.dart';
+
+import 'common/base/basewidget/viewmodel/ViewModelProvider.dart';
 
 void main() => runApp(MyApp());
 

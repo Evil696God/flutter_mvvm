@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_mvvm/common/base/view/BaseWidget.dart';
+import 'package:flutter_mvvm/common/base/basewidget/view/BaseWidget.dart';
 import 'package:flutter_mvvm/demo/viewmodel/TestViewModel.dart';
 
 class TestPage extends BaseStatefulWidget {

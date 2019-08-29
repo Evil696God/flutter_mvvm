@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_mvvm/common/base/viewmodel/BaseViewModel.dart';
-import 'package:flutter_mvvm/common/base/viewmodel/ViewModelProvider.dart';
+import 'package:flutter_mvvm/common/base/basecomponent/BaseComponent.dart';
+import 'package:flutter_mvvm/common/base/basewidget/viewmodel/BaseViewModel.dart';
+import 'package:flutter_mvvm/common/base/basewidget/viewmodel/ViewModelProvider.dart';
+
 /**
  * 基础widget类
  *
@@ -23,7 +25,7 @@ abstract class BaseStatelessWidget extends StatelessWidget {
 }
 
 abstract class BaseState<T extends BaseViewModel, S extends StatefulWidget>
-    extends State<S> {
+    extends BaseComponent<S> {
   T viewModel;
 
   @override

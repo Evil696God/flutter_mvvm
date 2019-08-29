@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_mvvm/common/base/model/BaseModel.dart';
+import 'package:flutter_mvvm/common/base/basewidget/model/BaseModel.dart';
 /**
  * 基础ViewModel类
  *
